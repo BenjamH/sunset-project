@@ -159,7 +159,7 @@ City.find({}).remove()
     }, {
       name: 'Jerusalem',
       country: 'Israel',
-      video: 'https://www.youtube.com/embed/T6LL6KfHyE8?autoplay=1'
+      video: 'https://www.youtube.com/embed/T6LL6KfHyE8?autoplay=1&start=25'
     }, {
       name: 'Labrador Nature Reserve',
       country: 'Singapore',
