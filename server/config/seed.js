@@ -43,7 +43,7 @@ City.find({}).remove()
     }, {
       name: 'Lima',
       country: 'Peru',
-      video: 'https://www.youtube.com/embed/?autoplay=1'
+      video: 'https://www.youtube.com/embed/RikRNDAyFsc?autoplay=1'
     }, {
       name: 'Bogota',
       country: 'Colombia',
