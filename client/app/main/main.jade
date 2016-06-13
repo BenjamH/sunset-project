@@ -1,8 +1,8 @@
 .container-fluid
   .row
     .col-lg-12.text-center
-      h1.center {{$ctrl.city.name}}, {{$ctrl.city.country}} {{$ctrl.city.video}}
-      p 12:00am
+      h1.center {{$ctrl.city.name}}, {{$ctrl.city.country}}
+      p {{$ctrl.time}}
   .row
     .col-lg-12
       iframe(width='100%' height='100%' style='height: 100vh' ng-src='{{$ctrl.city.video}}' frameborder='0' allowfullscreen alt='video')

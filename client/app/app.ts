@@ -8,9 +8,10 @@ angular.module('sunsetProjectApp', [
   'ui.router',
   'ui.bootstrap'
 ])
-  .config(function($urlRouterProvider, $locationProvider) {
+  .config(function($urlRouterProvider, $locationProvider, $sceDelegateProvider) {
     $urlRouterProvider
       .otherwise('/');
 
     $locationProvider.html5Mode(true);
+    $sceDelegateProvider.resourceUrlWhitelist(['**']);
   });

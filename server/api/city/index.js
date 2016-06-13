@@ -6,6 +6,7 @@ var controller = require('./city.controller');
 var router = express.Router();
 
 router.get('/', controller.index);
+router.get('/currentsunsets', controller.showSunsets);
 router.get('/:id', controller.show);
 router.post('/', controller.create);
 router.put('/:id', controller.update);

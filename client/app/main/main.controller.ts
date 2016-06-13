@@ -7,11 +7,13 @@ class MainController {
   constructor($http) {
     this.$http = $http;
     this.city = [];
+    this. time;
   }
 
   $onInit() {
-    this.$http.get('/api/cities/575e18845f6d4de9504fff92').then(response => {
-      this.city = response.data;
+    this.$http.get('/api/cities/currentSunsets').then(response => {
+      this.city = response.data[0];
+      this.time = new Date().toDateString();
     });
   }
 
