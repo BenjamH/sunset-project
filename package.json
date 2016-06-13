@@ -105,6 +105,7 @@
   "scripts": {
     "test": "grunt test",
     "postinstall": "./node_modules/.bin/typings install",
+    "typings": "typings install",
     "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update",
     "start": "node server"
   },
