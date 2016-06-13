@@ -143,7 +143,7 @@
     "preinstall": "npm install -g typings bower grunt-cli",
     "postinstall": "./node_modules/.bin/typings install && ./node_modules/bower/bin/bower install && ./node_modules/grunt-cli/bin/grunt build",
     "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update",
-    "start": "node server/app.js"
+    "start": "node dist/server/app.js"
   },
   "private": true
 }
