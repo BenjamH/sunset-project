@@ -107,7 +107,7 @@
     "test": "grunt test",
     "build": "grunt build",
     "preinstall": "npm install typings -g",
-    "postinstall": "./node_modules/.bin/typings install && grunt serve",
+    "postinstall": "./node_modules/.bin/typings install && ./node_modules/.bin/grunt serve",
     "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update"
   },
   "private": true
